@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Responsive Checkbox App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based web app that demonstrates two key tasks:
+Implementing a responsive layout (desktop + mobile) based on a Figma design.
+Building a nested checkbox component with proper parent-child behavior.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Task 1 – Responsive Layout
+Fully responsive UI (desktop & mobile).
+Components:
+Navbar – navigation with adaptive styling.
+Hero – hero section with text + call-to-action.
+Features – feature cards grid, responsive stacking.
+Footer – clean and mobile-friendly footer.
+Global styles in index.css.
 
-### `npm start`
+Task 2 – Nested Checkbox
+Select All – checks/unchecks everything.
+Category level (Fruits, Vegetables) – toggles all child items.
+Individual items (Apple, Carrot, etc.) – toggle independently.
+Indeterminate state – parent shows partially checked if only some children are selected.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🗂 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+responsive-checkbox-app/
+│── public/
+│   └── favicon.ico
+│
+│── src/
+│   │── components/
+│   │   ├── Navbar.jsx       # Responsive navbar
+│   │   ├── Hero.jsx         # Hero section
+│   │   ├── Features.jsx     # Features grid
+│   │   ├── CheckboxTree.jsx # Nested checkbox component (Task 2)
+│   │   └── Footer.jsx       # Footer
+│   │
+│   │── App.js              # Main layout
+│   │── index.css            # Global CSS
+│   │── index.js             # React entry
+│
+│── package.json
 
-### `npm test`
+🛠 Tech Stack
+React.js 
+CSS for responsive design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React state management for checkbox logic
+⚡️ Getting Started
+1. Clone the repo
+git clone https://github.com/umaGannamani/responsive-checkbox-app.git
+cd responsive-checkbox-app
+2. Install dependencies
+npm install
+3. Run locally
+npm start
+npm run dev
+4. Build for production
+npm run build
 
-### `npm run build`
+Published url 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🙌 Author
+[uma gannamani]
+GitHub: https://github.com/umaGannamani
+Email: gannamaniuma@gmail.com
+Individual items (Apple, Carrot, etc.) – toggle independently.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Indeterminate state – parent shows partially checked if only some children are selected.
