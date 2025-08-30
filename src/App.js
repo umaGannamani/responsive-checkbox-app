@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import CheckboxTree from "./components/CheckboxTree";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <main className="container">
+        <Hero />
+        <Features />
+        <section>
+          <h2>Task 2: Nested Checkbox Component</h2>
+          <p style={{ color: "var(--muted)" }}>
+            Try selecting "Select All", "Fruits", or "Vegetables".
+          </p>
+          <CheckboxTree />
+        </section>
+      </main>
+      <Footer />
+    </>
   );
 }
-
-export default App;
