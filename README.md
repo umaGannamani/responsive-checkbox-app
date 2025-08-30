@@ -58,7 +58,7 @@ npm run dev
 4. Build for production
 npm run build
 
-Published url 
+Published url https://responsive-checkbox-app.vercel.app/
 
 🙌 Author
 [uma gannamani]
